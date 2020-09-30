@@ -1,0 +1,54 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://d14fqx6aetz9ka.cloudfront.net/wp-content/uploads/2020/09/21124949/GBX_Kanoa_promobox.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h2, em, .profile {
+  font-family: 'Sansita Swashed', sans-serif;
+}
+
+h1, p {
+  color: #be8d1e;
+}
+
+h2, .profile {
+  color: green;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+}
+
+em {
+  font-size: 24px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.profile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 40%;
+  margin: 0 auto 20px 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.profile:hover {
+  color: darkred;
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+}
